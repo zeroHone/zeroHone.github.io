@@ -15,7 +15,7 @@ event.waitUntil(
 });
 // Listen for requests
 self.addEventListener('fetch' , (event) => {
-
+/*
     event.respondWith(
         caches.match(event.request)
         .then(()=>{
@@ -23,8 +23,14 @@ self.addEventListener('fetch' , (event) => {
             .catch(()=> caches.match('offline.html'))
         })
     )
+*/
+self.addEventListener("fetch", event => {
+    console.log('WORKER');    
+    console.log('WORKER: Fetching', event.request);
+  });
+}
 
-});
+);
 //Activate the SW
 
 
