@@ -1,18 +1,25 @@
 {
-    
-    "lang": "en-us",
-    "name": "Amico Tester",
-    "short_name": "Tester",
-    "description": "A basic temperature converter application that can convert to and from Celsius, Kelvin, and Fahrenheit",
-    "start_url": "/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
-    "orientation": "any",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "/icon512.png",
-            "sizes": "512x512"
-        }
-    ]
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
